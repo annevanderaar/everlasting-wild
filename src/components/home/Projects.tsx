@@ -16,7 +16,7 @@ const projects = [
     description:
       "Een film en serieplatform met een account functie waarbij je favorieten, gekeken lijst kan aanmaken. En daarnaast is er ook een generator voor films en series.",
     tags: ["Vue", "JavaScript", "TMDB"],
-    path: "/projecten/anegy",
+    path: "https://anegy.nl/",
     image: anegyImage,
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     description:
       "Een stijlvolle website voor een sieradenmerk met focus op uitstraling en gebruiksgemak. Gebouwd met WordPress en WooCommerce.",
     tags: ["WordPress", "WooCommerce", "CSS"],
-    path: "/projecten/jewelry-by-sil",
+    path: "https://jewelrybysil.nl/",
     image: jewelryImage,
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description:
       "Een rustige en professionele website voor behandelingen, informatie en het maken van een afspraak. Gebouwd met WordPress en Elementor",
     tags: ["WordPress", "UX", "Elementor"],
-    path: "/projecten/montira-massage",
+    path: "https://montiramassage.nl/",
     image: montiraImage,
   },
   {
@@ -40,7 +40,7 @@ const projects = [
     description:
       "Een website voor een restaurant met een overzichtelijk HTML-menu en focus op snelle, duidelijke informatie voor bezoekers.",
     tags: ["HTML", "CSS", "WordPress"],
-    path: "/projecten/thai-wok-to-go",
+    path: "https://thaiwoktogo.nl/",
     image: thaiWokImage,
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     description:
       "Een webshop voor kleding van MCC Sons of the Sea, met focus op uitstraling, producten en gebruiksvriendelijkheid.",
     tags: ["WordPress", "WooCommerce", "Design"],
-    path: "/projecten/sons-of-the-sea-customs",
+    path: "https://sonsoftheseacustoms.nl/",
     image: sonsOfTheSeaImage,
   },
 ];
@@ -89,8 +89,9 @@ export default function Projects() {
       >
         {projects.map((project) => (
           <SwiperSlide key={project.title} className="flex h-auto">
-            <NavLink
-              to={project.path}
+            <a
+              href={project.path}
+              target="_blank"
               className="c-gradient group flex h-full w-full flex-col rounded-[2rem] border border-gray-200 p-5 transition hover:-translate-y-1"
             >
               <div className="mb-6 aspect-[1.45] overflow-hidden rounded-[1.5rem] border border-gray-100 bg-white">
@@ -125,7 +126,7 @@ export default function Projects() {
                   className="text-sm transition group-hover:translate-x-1"
                 />
               </span>
-            </NavLink>
+            </a>
           </SwiperSlide>
         ))}
       </Swiper>
