@@ -1,8 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const socialLinks = [
+  {
+    name: "Email",
+    icon: faEnvelope,
+    href: "mailto:info@everlastingwild.nl",
+  },
   {
     name: "GitHub",
     icon: faGithub,

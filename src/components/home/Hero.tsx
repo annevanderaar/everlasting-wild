@@ -1,7 +1,5 @@
-import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowRight,
   faCode,
   faLayerGroup,
   faMobileScreen,
@@ -24,8 +22,8 @@ const highlights = [
 
 export default function Hero() {
   return (
-    <section className="overflow-hidden">
-      <div className="mx-auto grid items-center gap-12 px-4 py-16 lg:grid-cols-[1.05fr_0.95fr]">
+    <section className="px-4 xl:px-16 py-16 overflow-hidden">
+      <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
         <div>
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[var(--color-accent)]">
             Everlasting Wild
@@ -40,24 +38,7 @@ export default function Hero() {
             op design, performance en gebruiksvriendelijkheid.
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <NavLink
-              to="/projecten"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-black px-6 py-3 font-medium text-white transition hover:bg-[var(--color-accent)] hover:text-black"
-            >
-              Bekijk projecten
-              <FontAwesomeIcon icon={faArrowRight} className="text-sm" />
-            </NavLink>
-
-            <NavLink
-              to="/contact"
-              className="inline-flex items-center justify-center rounded-full border border-gray-300 px-6 py-3 font-medium transition hover:border-[var(--color-accent)] hover:text-[var(--color-accent)]"
-            >
-              Neem contact op
-            </NavLink>
-          </div>
-
-          <div className="mt-12 grid gap-4 sm:grid-cols-3">
+          <div className="mt-6 grid gap-4 sm:grid-cols-3">
             {highlights.map((highlight) => (
               <div
                 key={highlight.title}
@@ -93,13 +74,14 @@ export default function Hero() {
               <h2 className="text-3xl font-bold">Anegy</h2>
 
               <p className="mt-4 text-white/70">
-                Een film en serieplatform met favorieten, gekeken lijst en een
-                generator.
+                Een film en serieplatform met een account functie waarbij je
+                favorieten, gekeken lijst kan aanmaken. En daarnaast is er ook
+                een generator voor films en series.
               </p>
 
               <div className="mt-8 grid grid-cols-2 gap-3">
                 <div className="rounded-2xl bg-white/10 p-4">
-                  <p className="text-2xl font-bold">Vue</p>
+                  <p className="text-2xl font-bold">Vue/Vuetify</p>
                   <p className="text-sm text-white/50">Frontend</p>
                 </div>
 

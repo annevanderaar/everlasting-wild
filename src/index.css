@@ -4,6 +4,10 @@
   --color-accent: #e7c82b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer utilities {
   .c-gradient {
     background: linear-gradient(
