@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-    --color-accent: #E7C82B;
+  --color-accent: #e7c82b;
 }
 
 @layer utilities {
-    .c-gradient {
-        background: linear-gradient(
-            135deg,
-            white 0%,
-            white 55%,
-            rgb(231 200 43 / 0.15) 100%
-        );
-    }
+  .c-gradient {
+    background: linear-gradient(
+      135deg,
+      white 0%,
+      white 55%,
+      rgb(231 200 43 / 0.15) 100%
+    );
+  }
 }

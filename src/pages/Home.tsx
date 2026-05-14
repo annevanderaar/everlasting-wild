@@ -1,11 +1,11 @@
 import Hero from "../components/home/Hero.tsx";
+import Projects from "../components/home/Projects.tsx";
 
-function HomePage() {
-    return (
-        <>
-            <Hero />
-        </>
-    );
+export default function Home() {
+  return (
+    <>
+      <Hero />
+      <Projects />
+    </>
+  );
 }
-
-export default HomePage;
