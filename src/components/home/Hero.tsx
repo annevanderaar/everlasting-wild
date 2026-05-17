@@ -81,12 +81,12 @@ export default function Hero() {
 
               <div className="mt-8 grid grid-cols-2 gap-3">
                 <div className="rounded-2xl bg-white/10 p-4">
-                  <p className="text-2xl font-bold">Vue/Vuetify</p>
+                  <p className="text-2xl font-bold">Vue</p>
                   <p className="text-sm text-white/50">Frontend</p>
                 </div>
 
                 <div className="rounded-2xl bg-white/10 p-4">
-                  <p className="text-2xl font-bold">Laravel/PHP</p>
+                  <p className="text-2xl font-bold">PHP</p>
                   <p className="text-sm text-white/50">Backend</p>
                 </div>
               </div>
