@@ -1,0 +1,87 @@
+{
+  "navigation": {
+    "subtitle": "Custom web applications"
+  },
+  "hero": {
+    "title": "Custom websites & web applications that stand out.",
+    "description": "I design and develop modern websites and web applications with a focus on design, performance and usability.",
+    "highlights": {
+      "development": "Custom development",
+      "identity": "Strong visual identity",
+      "responsive": "Responsive design"
+    },
+    "featuredProject": {
+      "label": "Featured project",
+      "description": "A platform for movies and TV series with an account feature that lets you keep track of your favourites and watched titles. The platform also includes a movie and TV series generator.",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    }
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Websites and applications with their own identity.",
+    "viewCase": "View case",
+    "items": {
+      "anegy": {
+        "description": "A platform for movies and TV series with an account feature that lets you keep track of your favourites and watched titles. The platform also includes a movie and TV series generator."
+      },
+      "jewelryBySil": {
+        "description": "A stylish website for a jewellery brand, focused on visual appeal and ease of use. Built with WordPress and WooCommerce."
+      },
+      "montiraMassage": {
+        "description": "A calm and professional website for treatments, information and booking appointments. Built with WordPress and Elementor."
+      },
+      "thaiWokToGo": {
+        "description": "A modern React website for a Thai restaurant with a responsive design, intuitive navigation and a clear digital menu."
+      },
+      "spekulaasplanken": {
+        "description": "A website showcasing the Van der Aar family's traditional wooden speculaas moulds, focused on visual appeal, products and ease of use."
+      }
+    }
+  },
+  "services": {
+    "label": "Services",
+    "title": "From idea to a professional online solution.",
+    "items": {
+      "websites": {
+        "title": "Websites",
+        "description": "Modern websites focused on visual appeal, speed and ease of use."
+      },
+      "webApplications": {
+        "title": "Web applications",
+        "description": "Custom applications offering functionality beyond a standard website."
+      },
+      "wordpress": {
+        "title": "WordPress solutions",
+        "description": "Custom WordPress websites, WooCommerce webshops and maintainable solutions."
+      },
+      "frontendDevelopment": {
+        "title": "Frontend development",
+        "description": "Powerful interfaces built with modern technologies such as React, Vue and TypeScript."
+      }
+    }
+  },
+  "why": {
+    "label": "Why Everlasting Wild",
+    "title": "A website that not only looks great, but works well too.",
+    "description": "I combine design, frontend development and technical expertise to create websites that feel professional, are easy to use and are ready to grow.",
+    "reasons": {
+      "collaboration": {
+        "title": "Personal collaboration",
+        "text": "Direct communication, clear contact and active involvement throughout the entire process."
+      },
+      "designAndDevelopment": {
+        "title": "Design and development",
+        "text": "Not only technically well-built, but also visually strong and aligned with your brand."
+      },
+      "customSolutions": {
+        "title": "Custom solutions",
+        "text": "No generic template look, but a website or application tailored to your goals."
+      },
+      "performance": {
+        "title": "Fast and user-friendly",
+        "text": "Built with a focus on performance, responsive design and a smooth user experience."
+      }
+    }
+  }
+}

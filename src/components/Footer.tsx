@@ -8,13 +8,13 @@ export default function Footer() {
         <SocialLinks />
       </div>
 
-      <div className="h-[2px] w-[50px] bg-[var(--color-accent)]" />
+      <div className="h-0.5 w-12.5 bg-(--color-accent)" />
 
       <div className="text-center text-sm">
         Copyright © {new Date().getFullYear()} —{" "}
         <NavLink
           to="/"
-          className="font-semibold transition hover:text-[var(--color-accent)]"
+          className="font-semibold transition hover:text-(--color-accent)"
         >
           Everlasting Wild
         </NavLink>

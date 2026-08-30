@@ -1,0 +1,87 @@
+{
+  "navigation": {
+    "subtitle": "Maatwerk webapplicaties"
+  },
+  "hero": {
+    "title": "Maatwerk websites & webapplicaties die opvallen.",
+    "description": "Ik ontwerp en ontwikkel moderne websites en webapplicaties met focus op design, performance en gebruiksvriendelijkheid.",
+    "highlights": {
+      "development": "Maatwerk development",
+      "identity": "Sterke visuele identiteit",
+      "responsive": "Responsive design"
+    },
+    "featuredProject": {
+      "label": "Uitgelicht project",
+      "description": "Een platform voor films en series met een accountfunctie waarmee je favorieten en een lijst met bekeken titels kunt bijhouden. Daarnaast bevat het platform een generator voor films en series.",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    }
+  },
+  "projects": {
+    "label": "Projecten",
+    "title": "Websites en applicaties met een eigen identiteit.",
+    "viewCase": "Bekijk case",
+    "items": {
+      "anegy": {
+        "description": "Een platform voor films en series met een accountfunctie waarmee je favorieten en een lijst met bekeken titels kunt bijhouden. Daarnaast bevat het platform een generator voor films en series."
+      },
+      "jewelryBySil": {
+        "description": "Een stijlvolle website voor een sieradenmerk met focus op uitstraling en gebruiksgemak. Gebouwd met WordPress en WooCommerce."
+      },
+      "montiraMassage": {
+        "description": "Een rustige en professionele website voor behandelingen, informatie en het maken van afspraken. Gebouwd met WordPress en Elementor."
+      },
+      "thaiWokToGo": {
+        "description": "Een moderne React-website voor een Thais restaurant met een responsive ontwerp, intuïtieve navigatie en een overzichtelijk digitaal menu."
+      },
+      "spekulaasplanken": {
+        "description": "Een website voor de spekulaasplanken van de familie Van der Aar, met focus op uitstraling, producten en gebruiksvriendelijkheid."
+      }
+    }
+  },
+  "services": {
+    "label": "Diensten",
+    "title": "Van idee naar een professionele online oplossing.",
+    "items": {
+      "websites": {
+        "title": "Websites",
+        "description": "Moderne websites met focus op uitstraling, snelheid en gebruiksvriendelijkheid."
+      },
+      "webApplications": {
+        "title": "Webapplicaties",
+        "description": "Maatwerkapplicaties voor functies die verder gaan dan een standaardwebsite."
+      },
+      "wordpress": {
+        "title": "WordPress-oplossingen",
+        "description": "Maatwerk WordPress-websites, WooCommerce-webshops en onderhoudbare oplossingen."
+      },
+      "frontendDevelopment": {
+        "title": "Frontend development",
+        "description": "Sterke interfaces gebouwd met moderne technieken zoals React, Vue en TypeScript."
+      }
+    }
+  },
+  "why": {
+    "label": "Waarom Everlasting Wild",
+    "title": "Een website die niet alleen mooi is, maar ook goed werkt.",
+    "description": "Ik combineer design, frontend development en technische kennis om websites te maken die professioneel aanvoelen, prettig werken en klaar zijn om verder te groeien.",
+    "reasons": {
+      "collaboration": {
+        "title": "Persoonlijke samenwerking",
+        "text": "Korte lijnen, duidelijk contact en actief meedenken tijdens het hele proces."
+      },
+      "designAndDevelopment": {
+        "title": "Design én development",
+        "text": "Niet alleen technisch goed gebouwd, maar ook visueel sterk en passend bij je merk."
+      },
+      "customSolutions": {
+        "title": "Maatwerkoplossingen",
+        "text": "Geen standaard templategevoel, maar een website of applicatie die aansluit bij jouw doelen."
+      },
+      "performance": {
+        "title": "Snel en gebruiksvriendelijk",
+        "text": "Gebouwd met focus op performance, responsive design en een prettige gebruikerservaring."
+      }
+    }
+  }
+}

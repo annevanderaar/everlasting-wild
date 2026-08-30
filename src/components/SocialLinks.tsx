@@ -29,7 +29,7 @@ export default function SocialLinks() {
           href={link.href}
           target="_blank"
           rel="noreferrer"
-          className="text-lg transition hover:text-[var(--color-accent)]"
+          className="text-lg transition hover:text-(--color-accent)"
         >
           <FontAwesomeIcon icon={link.icon} />
         </a>
