@@ -9,6 +9,7 @@ import jewelryImage from "../../assets/jewelrybysil/featured.png";
 import montiraImage from "../../assets/montiramassage/featured.png";
 import thaiWokImage from "../../assets/thaiwoktogo/featured.png";
 import spekulaasplankenImage from "../../assets/spekulaasplanken/featured.png";
+import anneImage from "../../assets/annevanderaar/featured.png";
 
 const projects = [
   {
@@ -45,6 +46,13 @@ const projects = [
     tags: ["React", "Tailwind", "Design"],
     path: "https://spekulaasplanken.nl/",
     image: spekulaasplankenImage,
+  },
+  {
+    id: "anne",
+    title: "Anne van der Aar",
+    tags: ["Vue", "Modern", "Portfolio"],
+    path: "https://annevanderaar.nl/",
+    image: anneImage,
   },
 ];
 

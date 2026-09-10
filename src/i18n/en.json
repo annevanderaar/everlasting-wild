@@ -36,6 +36,9 @@
       },
       "spekulaasplanken": {
         "description": "A website showcasing the Van der Aar family's traditional wooden speculaas moulds, focused on visual appeal, products and ease of use."
+      },
+      "anne": {
+        "description": "A portfolio website to showcase various projects. Built with Vue, focusing on a responsive and modern design."
       }
     }
   },

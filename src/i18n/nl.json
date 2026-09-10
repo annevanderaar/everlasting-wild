@@ -36,6 +36,9 @@
       },
       "spekulaasplanken": {
         "description": "Een website voor de spekulaasplanken van de familie Van der Aar, met focus op uitstraling, producten en gebruiksvriendelijkheid."
+      },
+      "anne": {
+        "description": "Een portfolio website om de verschillende projecten te laten zien. Gemaakt met Vue met een focus op responsive en modern design."
       }
     }
   },
