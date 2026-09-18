@@ -12,9 +12,9 @@
     },
     "featuredProject": {
       "label": "Featured project",
-      "description": "A platform for movies and TV series with an account feature that lets you keep track of your favourites and watched titles. The platform also includes a movie and TV series generator.",
+      "description": "A creative portfolio for LMTAPES showcasing animation and illustration projects. The website combines a playful design with smooth interactions and a strong visual presentation.",
       "frontend": "Frontend",
-      "backend": "Backend"
+      "styling": "Styling"
     }
   },
   "projects": {
@@ -39,6 +39,9 @@
       },
       "anne": {
         "description": "A portfolio website to showcase various projects. Built with Vue, focusing on a responsive and modern design."
+      },
+      "lmtapes": {
+        "description": "A creative portfolio for LMTAPES showcasing animation and illustration projects through a playful and modern design."
       }
     }
   },

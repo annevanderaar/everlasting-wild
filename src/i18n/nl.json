@@ -12,9 +12,9 @@
     },
     "featuredProject": {
       "label": "Uitgelicht project",
-      "description": "Een platform voor films en series met een accountfunctie waarmee je favorieten en een lijst met bekeken titels kunt bijhouden. Daarnaast bevat het platform een generator voor films en series.",
+      "description": "Een creatief portfolio voor LMTAPES waarin animatie- en illustratieprojecten centraal staan. De website combineert een speels ontwerp met vloeiende interacties en een sterke visuele presentatie.",
       "frontend": "Frontend",
-      "backend": "Backend"
+      "styling": "Styling"
     }
   },
   "projects": {
@@ -39,6 +39,9 @@
       },
       "anne": {
         "description": "Een portfolio website om de verschillende projecten te laten zien. Gemaakt met Vue met een focus op responsive en modern design."
+      },
+      "lmtapes": {
+        "description": "Een creatief portfolio voor LMTAPES waarin animatie- en illustratieprojecten centraal staan, met een speels en modern ontwerp."
       }
     }
   },
