@@ -38,7 +38,7 @@ const projects = [
     id: "montiraMassage",
     title: "Montira Massage",
     tags: ["WordPress", "UX", "Elementor"],
-    path: "https://montiramassage.nl/",
+    path: "https://annevanderaar.nl/montira-massage",
     image: montiraImage,
   },
   {
